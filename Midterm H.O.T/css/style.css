@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font:12pt arial, sans-serif;
+}
+
+body{
+  margin:0;
+  padding:0;
+}
+
+
+/* HEADER */
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-text a{
+  text-decoration: none;
+  color: black;
+}
+
+.NewLDRLogo {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+/* MAIN */
+
+
+/* FOOTER */
