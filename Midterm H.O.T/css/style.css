@@ -36,11 +36,37 @@ body{
 
 .navbar {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: stretch;
+}
+
+/* SPOTLIGHT */
+
+.spotlight {
+  margin: 0px;
 }
 
 /* MAIN */
 
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-text {
+  display: flex;
+  justify-content: center;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-button {
+  display: flex;
+  justify-content: center;
+}
 
 /* FOOTER */
