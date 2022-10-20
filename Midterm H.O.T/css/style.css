@@ -53,22 +53,76 @@ body{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: red;
+}
+
+.main-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .main-text {
   display: flex;
   justify-content: center;
+  color: white;
+  font-size: 4em;
 }
 
 .main-info {
   display: flex;
+  color: white;
+  justify-content: center;
   flex-direction: column;
+  background-color: red;
+  font-size: 3em;
 }
 
 .main-button {
   display: flex;
   justify-content: center;
+  background-color: red;
+}
+
+.main-view-button {
+display: flex;
+justify-content: center;
+}
+
+.main-sponsors {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+}
+
+.main-right-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-right {
+  display: flex;
+  flex-direction: column;
 }
 
 /* FOOTER */
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: gray;
+}
