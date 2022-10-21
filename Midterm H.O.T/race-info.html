@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,19 +9,25 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <script defer src="./js/java.js"></script>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <style>
+    body {
+      font-family: "Audiowide", sans-serif;
+    }
+  </style>
 </head>
 
 <body>
   <!-- HEADER -->
   <header class="header">
-    <a href="home.html"><img alt="NewLDRLogo" src="Law Day Run Assets/NewLDRLogo.png" class="NewLDRLogo" /></a>
+    <a href="home.html"><img alt="NewLDRLogo" src="NewLDRLogo.png" class="NewLDRLogo" /></a>
     <h1 class="header-text">
-      <a href="home.html">LAWDAYRUN</a><h2>BELLEVILLE, LI 04/30/22</h2>
-    </h1>
+      <a href="home.html">LAWDAYRUN</a></h1>
+    <h2>BELLEVILLE, LI 04/30/22</h2>
   </header>
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg bg-success">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,17 +45,16 @@
               aria-expanded="false">Race Info</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item active" href="race-info.html">Race Info</a></li>
-              <li><a class="dropdown-item" href="register.html" target="_blank">Register</a></li>
-              <li><a class="dropdown-item" href="results.html">Results</a></li>
-              <li><a class="dropdown-item" href="photos.html">Photos</a></li>
-              <li><a class="dropdown-item" href="maps.html">Maps</a></li>
+              <li><a class="dropdown-item" href="https://lawday5k.itsyourrace.com/register/"
+                  target="_blank">Register</a></li>
+              <li class="dropdown-item">Maps:</li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Download 5k Run/Walk</a></li>
-              <li><a class="dropdown-item" href="#">Download Youth Run/Walk</a></li>
+              <li><a class="dropdown-item" href="/maps/fivek_route.pdf" target="_blank">Download 5k Run/Walk</a></li>
+              <li><a class="dropdown-item" href="/maps/youth-route.pdf" target="_blank">Download Youth Run/Walk</a></li>
             </ul>
-            </li>
+          </li>
 
           <li class="nav-item">
             <a class="nav-link" href="content.html">Content</a>
@@ -61,7 +66,8 @@
 
           <li class="nav-item">
             <a class="nav-link"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSc9QzlC6Da8dndPw-7fjisn2IcpWtWUM8dtik5OiLKPw21tsA/viewform" target="_blank">Volunteer</a>
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc9QzlC6Da8dndPw-7fjisn2IcpWtWUM8dtik5OiLKPw21tsA/viewform"
+              target="_blank">Volunteer</a>
           </li>
 
         </ul>
@@ -70,10 +76,26 @@
   </nav>
 
   <!-- MAIN -->
-  <main class="main"></main>
+  <main class="main-race-info">
+    <h2>19TH ANNUAL</h2>
+  </main>
 
   <!-- FOOTER -->
-  <footer></footer>
+  <footer class="footer">
+    <p>The Law Day Run proceeds benefits the Land of Lincoln Legal
+      Assistance Foundation,Inc,and other legal aid organizations, who
+      provide
+      </p>
+      <p>
+      low income and senior residents of southern and central
+      Illinois with high quality civil litigation services to obtain
+      and maintain their basic human needs.
+    </p>
+    <a href="https://getbootstrap.com/" target="_blank">
+    <img src="bootstrap-fill.svg" height="50px" width="50px" />
+    </a>
+    <p>19th Annual St. Clair County Law Day Run</p>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
   </script>
