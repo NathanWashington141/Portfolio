@@ -158,6 +158,12 @@ justify-content: center;
   background-color: red;
 }
 
+.main-race-info-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* FOOTER */
 .footer {
   display: flex;
