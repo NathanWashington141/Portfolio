@@ -152,6 +152,12 @@ justify-content: center;
   background-color: red;
 }
 
+.sponsors-main {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+
 /* FOOTER */
 .footer {
   display: flex;
